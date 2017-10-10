@@ -10,8 +10,7 @@ include Helpers # mixing helpers into the common namespace
 
 ############# START UP YOUR BOT, SET UP GREETING AND MENU ###################
 
-# NB: Subcribe your bot to your page here.
-Facebook::Messenger::Subscriptions.subscribe(access_token: ENV['ACCESS_TOKEN'])
+
 
 # Enable "Get Started" button, greeting and persistent menu for your bot
 Rubotnik::BotProfile.enable
