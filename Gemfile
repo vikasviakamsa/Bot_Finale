@@ -1,0 +1,8 @@
+ruby '2.4.1'
+source 'https://rubygems.org'
+gem 'addressable'
+gem 'dotenv'
+gem 'facebook-messenger', github: 'hyperoslo/facebook-messenger'
+gem 'httparty'
+gem 'puma'
+gem 'sinatra'
