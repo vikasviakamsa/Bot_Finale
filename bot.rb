@@ -100,7 +100,12 @@ end
 Bot.on :postback do |postback|
   Rubotnik::PostbackDispatch.new(postback).route do
     bind 'START' do
-      say 'Hello and welcome! I am Pinbot'
+      say 'Hello and welcome! I am Pinbot, pinterests distant cousin.'
+        sleep 1
+        say 'I can help you mood-board with your friends'
+        sleep 1
+        say 'and quickly curate some awesome inspiration.'
+        sleep 1
       say 'Here are some suggestions for you:', quick_replies: HINTS
     end
 
