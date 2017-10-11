@@ -16,20 +16,20 @@ module Rubotnik
             call_to_actions: [
               {
                 type: 'nested',
-                title: 'Sample UI elements',
+                title: 'Inspiration',
                 call_to_actions: [
                   {
-                    title: 'Generic Template',
+                    title: 'Search',
                     type: 'postback',
                     payload: 'CAROUSEL'
                   },
                   {
-                    title: 'Button Template',
+                    title: 'Hot Picks',
                     type: 'postback',
                     payload: 'BUTTON_TEMPLATE'
                   },
                   {
-                    title: 'Image Attachment',
+                    title: 'Random Inspiration',
                     type: 'postback',
                     payload: 'IMAGE_ATTACHMENT'
                   }
@@ -42,7 +42,7 @@ module Rubotnik
               },
               {
                 type: 'postback',
-                title: 'Sample questionnaire',
+                title: 'Help',
                 payload: 'QUESTIONNAIRE'
               }
             ]
