@@ -42,7 +42,7 @@ module Rubotnik
               },
               {
                 type: 'postback',
-                title: 'Help',
+                title: 'Curate a board',
                 payload: 'QUESTIONNAIRE'
               }
             ]
