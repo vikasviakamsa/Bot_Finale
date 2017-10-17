@@ -168,7 +168,7 @@ module SampleElements
       type: :web_url,
       # payload: 'BUTTON_TEMPLATE_ACTION',
       url: 'https://in.pinterest.com/',
-      title: 'Popular among your friends'
+      title: 'Popular among friends'
     }
   ].freeze
 end
