@@ -3,7 +3,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://picsum.photos/200/300?image=1081',
+      image_url: 'https://picsum.photos/1000/840?image=1081',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
