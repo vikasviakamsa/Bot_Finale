@@ -25,7 +25,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/760/400?random',
+      image_url: 'https://unsplash.it/750/200?random',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -47,7 +47,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/760/400?random',
+      image_url: 'https://unsplash.it/770/300?random',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -69,7 +69,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/760/400?random',
+      image_url: 'https://unsplash.it/790/410?random',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
