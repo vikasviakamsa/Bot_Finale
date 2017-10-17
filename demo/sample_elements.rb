@@ -25,7 +25,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/750/200?random',
+      image_url: 'https://in.pinterest.com/pin/405394403945669193/',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
