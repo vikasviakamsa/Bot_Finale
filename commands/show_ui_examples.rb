@@ -12,7 +12,7 @@ module ShowUIExamples
                         .send(@user)
   end
 
-  def show_carousel(image_ratio: square)
+  def show_carousel(image_ratio: nil)
     if image_ratio == :square
       UI::FBCarousel.new(SampleElements::CAROUSEL).square_images.send(@user)
     else
@@ -22,6 +22,10 @@ module ShowUIExamples
 
   def send_image
     say "Wait a bit while I pick a nice random image for you"
+    sleep 1
+    say "I love how we work together"
+    sleep 2
+    say "you inspire me"
     img_url = 'https://unsplash.it/600/400?random'
     @message.typing_on if @message
     UI::ImageAttachment.new(img_url).send(@user)
