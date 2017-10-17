@@ -16,10 +16,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'SQUARE_IMAGES'
+          payload: nil
         }
       ]
     },
@@ -39,10 +39,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'SQUARE_IMAGES'
+          payload: nil
         }
       ]
     },
@@ -62,10 +62,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'SQUARE_IMAGES'
+          payload: nil
         }
       ]
     },
@@ -85,10 +85,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'SQUARE_IMAGES'
+          payload: nil
         }
       ]
     },
@@ -108,10 +108,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'SQUARE_IMAGES'
+          payload: nil
         }
       ]
     },
@@ -131,10 +131,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'SQUARE_IMAGES'
+          payload: nil
         }
       ]
     },
@@ -154,10 +154,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
-          #edited for Pinning, commented out _payload
+          #edited for Pinning, commented out _payload 'HORIZONTAL_IMAGES'
           type: :postback,
           title: 'Pin',
-          # payload: 'HORIZONTAL_IMAGES'
+          payload: nil
         }
       ]
     }
