@@ -25,7 +25,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.com/photos/c8N9zSbYjy4',
+      image_url: 'https://picsum.photos/1000/840?image=983',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -47,7 +47,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/770/300?random',
+      image_url: 'https://picsum.photos/1000/840?image=954',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -69,7 +69,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/790/410?random',
+      image_url: 'https://picsum.photos/1000/840?image=983',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -91,7 +91,7 @@ module SampleElements
     {
       title: 'Another random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://unsplash.it/600/315?random',
+      image_url: 'https://picsum.photos/1000/840?image=855',
       subtitle: "And here's a second card. You can add up to 10!",
       default_action: {
         type: 'web_url',
