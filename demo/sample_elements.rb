@@ -1,10 +1,10 @@
 module SampleElements
   CAROUSEL = [
     {
-      title: 'Random image',
+      title: '#1',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=842',
-      subtitle: "That's a first card in a carousel",
+      subtitle: "Symmetry is one of the ke principles",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
@@ -23,10 +23,10 @@ module SampleElements
       ]
     },
     {
-      title: 'Random image',
+      title: '#2',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=983',
-      subtitle: "That's a first card in a carousel",
+      subtitle: "Scale can be awestriking",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
@@ -45,10 +45,10 @@ module SampleElements
       ]
     },
     {
-      title: 'Random image',
+      title: '#3',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=954',
-      subtitle: "That's a first card in a carousel",
+      subtitle: "Exposing hidden details can impart elegance",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
@@ -67,10 +67,10 @@ module SampleElements
       ]
     },
     {
-      title: 'Random image',
+      title: '#4',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=503',
-      subtitle: "That's a first card in a carousel",
+      subtitle: "Embracing materiality can reveal striking qualities",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
@@ -89,10 +89,10 @@ module SampleElements
       ]
     },
     {
-      title: 'Random image',
+      title: '#5',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=444',
-      subtitle: "That's a first card in a carousel",
+      subtitle: "A nice interplay of floor plates",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
@@ -111,10 +111,10 @@ module SampleElements
       ]
     },
     {
-      title: 'Random image',
+      title: '#6',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=322',
-      subtitle: "That's a first card in a carousel",
+      subtitle: "Old is gold, forever",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
@@ -133,10 +133,10 @@ module SampleElements
       ]
     },
     {
-      title: 'Another random image',
+      title: '#7',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://picsum.photos/1000/840?image=739',
-      subtitle: "And here's a second card. You can add up to 10!",
+      subtitle: "Constrast with surrounding context can be a strong element",
       default_action: {
         type: 'web_url',
         url: 'https://unsplash.it'
