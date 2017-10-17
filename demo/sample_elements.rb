@@ -16,9 +16,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Square Images',
-          payload: 'SQUARE_IMAGES'
+          title: 'Pin',
+          # payload: 'SQUARE_IMAGES'
         }
       ]
     },
@@ -38,9 +39,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Square Images',
-          payload: 'SQUARE_IMAGES'
+          title: 'Pin',
+          # payload: 'SQUARE_IMAGES'
         }
       ]
     },
@@ -60,9 +62,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Square Images',
-          payload: 'SQUARE_IMAGES'
+          title: 'Pin',
+          # payload: 'SQUARE_IMAGES'
         }
       ]
     },
@@ -82,9 +85,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Square Images',
-          payload: 'SQUARE_IMAGES'
+          title: 'Pin',
+          # payload: 'SQUARE_IMAGES'
         }
       ]
     },
@@ -104,9 +108,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Square Images',
-          payload: 'SQUARE_IMAGES'
+          title: 'Pin',
+          # payload: 'SQUARE_IMAGES'
         }
       ]
     },
@@ -126,9 +131,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Square Images',
-          payload: 'SQUARE_IMAGES'
+          title: 'Pin',
+          # payload: 'SQUARE_IMAGES'
         }
       ]
     },
@@ -148,9 +154,10 @@ module SampleElements
           title: 'Show similar'
         },
         {
+          #edited for Pinning, commented out _payload
           type: :postback,
-          title: 'Unsquare Images',
-          payload: 'HORIZONTAL_IMAGES'
+          title: 'Pin',
+          # payload: 'HORIZONTAL_IMAGES'
         }
       ]
     }
