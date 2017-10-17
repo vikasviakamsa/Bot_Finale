@@ -12,7 +12,7 @@ module ShowUIExamples
                         .send(@user)
   end
 
-  def show_carousel(image_ratio: nil)
+  def show_carousel(image_ratio: square)
     if image_ratio == :square
       UI::FBCarousel.new(SampleElements::CAROUSEL).square_images.send(@user)
     else
