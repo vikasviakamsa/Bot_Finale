@@ -161,13 +161,14 @@ module SampleElements
   BUTTON_TEMPLATE_BUTTONS = [
     {
       type: :web_url,
-      url: 'https://medium.com/@progapanda',
-      title: "Andy's Medium"
+      url: 'https://in.pinterest.com/categories/popular/',
+      title: "Popular on Pinterest"
     },
     {
-      type: :postback,
-      payload: 'BUTTON_TEMPLATE_ACTION',
-      title: 'Useful Button'
+      type: :web_url,
+      # payload: 'BUTTON_TEMPLATE_ACTION',
+      url: 'https://in.pinterest.com/',
+      title: 'Popular among your friends'
     }
   ].freeze
 end
