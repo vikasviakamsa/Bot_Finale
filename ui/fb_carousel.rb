@@ -11,7 +11,7 @@ module UI
             type: 'template',
             payload: {
               template_type: 'generic',
-              image_aspect_ratio: 'horizontal',
+              image_aspect_ratio: 'square',
               elements: parse_elements(elements)
             }
           }
