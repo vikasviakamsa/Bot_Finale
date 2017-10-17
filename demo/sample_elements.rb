@@ -156,8 +156,8 @@ module SampleElements
     }
   ].freeze
 
-  BUTTON_TEMPLATE_TEXT = "Wanna checkout some popular stuff?" \
-                         "Pick either!".freeze
+  BUTTON_TEMPLATE_TEXT = "Wanna checkout some popular stuff? Pick either!"
+
   BUTTON_TEMPLATE_BUTTONS = [
     {
       type: :web_url,
