@@ -17,9 +17,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     },
@@ -40,9 +40,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     },
@@ -63,9 +63,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     },
@@ -86,9 +86,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     },
@@ -109,9 +109,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     },
@@ -132,9 +132,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'SQUARE_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     },
@@ -155,9 +155,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'HORIZONTAL_IMAGES'
-          type: :postback,
+          type: :web_url,
           title: 'Pin',
-          payload: nil
+          url: 'https://in.pinterest.com/'
         }
       ]
     }
