@@ -23,6 +23,72 @@ module SampleElements
       ]
     },
     {
+      title: 'Random image',
+      # Horizontal image should have 1.91:1 ratio
+      image_url: 'https://unsplash.it/760/400?random',
+      subtitle: "That's a first card in a carousel",
+      default_action: {
+        type: 'web_url',
+        url: 'https://unsplash.it'
+      },
+      buttons: [
+        {
+          type: :web_url,
+          url: 'https://unsplash.it',
+          title: 'Website'
+        },
+        {
+          type: :postback,
+          title: 'Square Images',
+          payload: 'SQUARE_IMAGES'
+        }
+      ]
+    },
+    {
+      title: 'Random image',
+      # Horizontal image should have 1.91:1 ratio
+      image_url: 'https://unsplash.it/760/400?random',
+      subtitle: "That's a first card in a carousel",
+      default_action: {
+        type: 'web_url',
+        url: 'https://unsplash.it'
+      },
+      buttons: [
+        {
+          type: :web_url,
+          url: 'https://unsplash.it',
+          title: 'Website'
+        },
+        {
+          type: :postback,
+          title: 'Square Images',
+          payload: 'SQUARE_IMAGES'
+        }
+      ]
+    },
+    {
+      title: 'Random image',
+      # Horizontal image should have 1.91:1 ratio
+      image_url: 'https://unsplash.it/760/400?random',
+      subtitle: "That's a first card in a carousel",
+      default_action: {
+        type: 'web_url',
+        url: 'https://unsplash.it'
+      },
+      buttons: [
+        {
+          type: :web_url,
+          url: 'https://unsplash.it',
+          title: 'Website'
+        },
+        {
+          type: :postback,
+          title: 'Square Images',
+          payload: 'SQUARE_IMAGES'
+        }
+      ]
+    },
+    {
       title: 'Another random image',
       # Horizontal image should have 1.91:1 ratio
       image_url: 'https://unsplash.it/600/315?random',

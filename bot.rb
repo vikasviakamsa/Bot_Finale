@@ -120,7 +120,7 @@ Bot.on :postback do |postback|
       say "I don't really do anything useful"
     end
 
-    bind 'PIN' do
+    bind 'SQUARE_IMAGES' do
       show_carousel(image_ratio: :square)
     end
 
