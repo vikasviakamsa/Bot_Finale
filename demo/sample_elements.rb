@@ -3,7 +3,7 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://picsum.photos/1000/840?image=1081',
+      image_url: 'https://picsum.photos/1000/840?image=842',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -69,7 +69,51 @@ module SampleElements
     {
       title: 'Random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://picsum.photos/1000/840?image=983',
+      image_url: 'https://picsum.photos/1000/840?image=744',
+      subtitle: "That's a first card in a carousel",
+      default_action: {
+        type: 'web_url',
+        url: 'https://unsplash.it'
+      },
+      buttons: [
+        {
+          type: :web_url,
+          url: 'https://unsplash.it',
+          title: 'Website'
+        },
+        {
+          type: :postback,
+          title: 'Square Images',
+          payload: 'SQUARE_IMAGES'
+        }
+      ]
+    },
+    {
+      title: 'Random image',
+      # Horizontal image should have 1.91:1 ratio
+      image_url: 'https://picsum.photos/1000/840?image=679',
+      subtitle: "That's a first card in a carousel",
+      default_action: {
+        type: 'web_url',
+        url: 'https://unsplash.it'
+      },
+      buttons: [
+        {
+          type: :web_url,
+          url: 'https://unsplash.it',
+          title: 'Website'
+        },
+        {
+          type: :postback,
+          title: 'Square Images',
+          payload: 'SQUARE_IMAGES'
+        }
+      ]
+    },
+    {
+      title: 'Random image',
+      # Horizontal image should have 1.91:1 ratio
+      image_url: 'https://picsum.photos/1000/840?image=322',
       subtitle: "That's a first card in a carousel",
       default_action: {
         type: 'web_url',
@@ -91,7 +135,7 @@ module SampleElements
     {
       title: 'Another random image',
       # Horizontal image should have 1.91:1 ratio
-      image_url: 'https://picsum.photos/1000/840?image=855',
+      image_url: 'https://picsum.photos/1000/840?image=739',
       subtitle: "And here's a second card. You can add up to 10!",
       default_action: {
         type: 'web_url',
