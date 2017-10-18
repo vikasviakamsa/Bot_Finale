@@ -155,9 +155,9 @@ module SampleElements
         },
         {
           #edited for Pinning, commented out _payload 'HORIZONTAL_IMAGES'
-          type: :web_url,
+          type: :postback,
           title: 'Pin',
-          url: 'https://in.pinterest.com/'
+          payload: nil
         }
       ]
     }

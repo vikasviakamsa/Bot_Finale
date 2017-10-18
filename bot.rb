@@ -1,12 +1,16 @@
 # rubocop:disable Metrics/BlockLength
 # require 'dotenv/load' # leave this line commented while working with heroku
 require 'facebook/messenger'
+require 'pinterest-api'
 require 'sinatra'
 require_relative 'rubotnik/rubotnik'
 require_relative 'helpers/helpers'
 include Facebook::Messenger
 include Helpers # mixing helpers into the common namespace
 # so they can be used outside of Dispatches
+# Pinterest API call
+
+client = Pinterest::Client.new(PINTEREST_ACCESS_TOKEN)
 
 ############# START UP YOUR BOT, SET UP GREETING AND MENU ###################
 
