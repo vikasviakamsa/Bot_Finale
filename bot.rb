@@ -10,7 +10,7 @@ include Helpers # mixing helpers into the common namespace
 # so they can be used outside of Dispatches
 # Pinterest API call
 
-client = Pinterest::Client.new(PINTEREST_ACCESS_TOKEN)
+# client = Pinterest::Client.new(PINTEREST_ACCESS_TOKEN)
 
 ############# START UP YOUR BOT, SET UP GREETING AND MENU ###################
 
