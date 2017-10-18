@@ -8,9 +8,6 @@ require_relative 'helpers/helpers'
 include Facebook::Messenger
 include Helpers # mixing helpers into the common namespace
 # so they can be used outside of Dispatches
-# Pinterest API call
-
-# client = Pinterest::Client.new(PINTEREST_ACCESS_TOKEN)
 
 ############# START UP YOUR BOT, SET UP GREETING AND MENU ###################
 
@@ -26,8 +23,8 @@ Rubotnik::PersistentMenu.enable
 # NOTE: QuickReplies.build should be called with a splat operator
 # if a set of quick replies is an array of arrays.
 # e.g. UI::QuickReplies.build(*replies)
-HINTS = UI::QuickReplies.build(['Where am I?', 'LOCATION'],
-                               ['Take questionnaire', 'QUESTIONNAIRE'])
+HINTS = UI::QuickReplies.build(["Where am I?", "LOCATION"],
+                               ["Curate a board", "QUESTIONNAIRE"])
 
 # Build a quick reply that prompts location from user
 LOCATION_PROMPT = UI::QuickReplies.location
