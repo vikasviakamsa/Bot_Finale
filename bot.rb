@@ -1,7 +1,6 @@
 # rubocop:disable Metrics/BlockLength
 # require 'dotenv/load' # leave this line commented while working with heroku
 require 'facebook/messenger'
-require 'pinterest-api'
 require 'sinatra'
 require_relative 'rubotnik/rubotnik'
 require_relative 'helpers/helpers'
