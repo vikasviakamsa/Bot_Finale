@@ -26,7 +26,7 @@ Rubotnik::PersistentMenu.enable
 # NOTE: QuickReplies.build should be called with a splat operator
 # if a set of quick replies is an array of arrays.
 # e.g. UI::QuickReplies.build(*replies)
-HINTS = UI::QuickReplies.build(["Search", "SEARCH"],
+HINTS = UI::QuickReplies.build(["Search"],
                                ["Where am I?", "LOCATION"],
                                ["Curate a board", "QUESTIONNAIRE"])
 
