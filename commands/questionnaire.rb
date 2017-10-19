@@ -5,8 +5,8 @@ module Questionnaire
   # commands are mixed into Dispatch classes as private methods.
   module_function
 
-  def start_questionnaire
-    if @message.quick_reply == 'CREATE_A_BOARD' || @message.text =~ /yes/i
+  def create_board
+    if @message.quick_reply == 'CREATE_BOARD' || @message.text =~ /yes/i
       say "Great! What's your name?"
       say "(type 'Stop' at any point to exit)"
       next_command :handle_name_and_ask_gender
@@ -43,7 +43,7 @@ module Questionnaire
     stop_questionnaire
   end
 
-  def stop_questionnaire
+  def stop_create_board
     stop_thread
     show_results
     @user.answers = {}

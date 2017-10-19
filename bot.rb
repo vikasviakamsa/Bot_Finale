@@ -23,15 +23,15 @@ Rubotnik::PersistentMenu.enable
 # if a set of quick replies is an array of arrays.
 # e.g. UI::QuickReplies.build(*replies)
 HINTS = UI::QuickReplies.build(["Where am I?", "LOCATION"],["Search New", "CAROUSEL"],
-                               ["Curate a board", "QUESTIONNAIRE"])
+                               ["Create a board", "QUESTIONNAIRE"])
 
 # Build a quick reply that prompts location from user
 LOCATION_PROMPT = UI::QuickReplies.location
 
 # Define vartiables you want to use for both messages and postbacks
 # outside both Bot.on method calls.
-questionnaire_replies = UI::QuickReplies.build(%w[Yes START_QUESTIONNAIRE],
-                                               %w[No STOP_QUESTIONNAIRE])
+questionnaire_replies = UI::QuickReplies.build(%w[Yes CREATE_BOARD],
+                                               %w[No STOP_CREATE_BOARD])
 questionnaire_welcome = 'Lets curate a board, do you want to create a new one or access an existing one?'
 
 ####################### ROUTE MESSAGES HERE ################################
