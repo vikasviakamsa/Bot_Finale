@@ -23,15 +23,17 @@ module Questionnaire
     @user.answers[:name] = @message.text
     replies = UI::QuickReplies.build(%w[Yes YES], %w[No NO])
     say "Your board is ready to be pinned with new content, do you want to begin?", quick_replies: replies
+    sleep 5
+    say "Alright, you can access the persistent menu to start pinning."
     next_command :handle_gender_and_ask_age
   end
 
-  def handle_gender_and_ask_age
-    fall_back && return
-    @user.answers[:gender] = @message.text
-    say "Alright, you can access the persistent menu to start pinning.", quick_replies: reply
-    next_command :handle_age_and_stop
-  end
+  # def handle_gender_and_ask_age
+  #   fall_back && return
+  #   @user.answers[:gender] = @message.text
+  #   say "Alright, you can access the persistent menu to start pinning.", quick_replies: reply
+  #   next_command :handle_age_and_stop
+  # end
 
   # def handle_age_and_stop
   #   fall_back && return
