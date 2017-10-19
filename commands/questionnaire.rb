@@ -7,7 +7,7 @@ module Questionnaire
 
   def create_board
     if @message.quick_reply == 'CREATE_BOARD' || @message.text =~ /yes/i
-      say "Great! What's your name?"
+      say "Great! What do you want to name this board?"
       say "(type 'Stop' at any point to exit)"
       next_command :handle_name_and_ask_gender
     else
@@ -20,16 +20,15 @@ module Questionnaire
     # Fallback functionality if stop word used or user input is not text
     fall_back && return
     @user.answers[:name] = @message.text
-    replies = UI::QuickReplies.build(%w[Male MALE], %w[Female FEMALE])
-    say "What's your gender?", quick_replies: replies
+    replies = UI::QuickReplies.build(%w[Yes YES], %w[No NO])
+    say "Your board is ready to be pinned with new content, do you want to begin?", quick_replies: replies
     next_command :handle_gender_and_ask_age
   end
 
   def handle_gender_and_ask_age
     fall_back && return
     @user.answers[:gender] = @message.text
-    reply = UI::QuickReplies.build(["I'd rather not say", 'NO_AGE'])
-    say 'Finally, how old are you?', quick_replies: reply
+    say 'Alright, you can access the persistent menu to start pinning.', quick_replies: reply
     next_command :handle_age_and_stop
   end
 
