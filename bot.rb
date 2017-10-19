@@ -78,7 +78,7 @@ Bot.on :message do |message|
     # Include nested hash to provide a message asking user
     # for input to the next command. You can also pass an array of
     # quick replies (and process them inside the thread).
-    bind 'questionnaire', to: :create_board, start_thread: {
+    bind 'create', to: :create_board, start_thread: {
       message: questionnaire_welcome,
       quick_replies: questionnaire_replies
     }
