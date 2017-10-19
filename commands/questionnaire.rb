@@ -34,33 +34,33 @@ module Questionnaire
     next_command :handle_age_and_stop
   end
 
-  def handle_age_and_stop
-    fall_back && return
-    @user.answers[:age] = if @message.quick_reply == 'NO_AGE'
-                            'hidden'
-                          else
-                            @message.text
-                          end
-    stop_questionnaire
-  end
+  # def handle_age_and_stop
+  #   fall_back && return
+  #   @user.answers[:age] = if @message.quick_reply == 'NO_AGE'
+  #                           'hidden'
+  #                         else
+  #                           @message.text
+  #                         end
+  #   stop_questionnaire
+  # end
 
-  def stop_create_board
-    stop_thread
-    show_results
-    @user.answers = {}
-  end
-
-  def show_results
-    say "OK. Here's what we now about you so far:"
-    name = @user.answers.fetch(:name, 'N/A')
-    gender = @user.answers.fetch(:gender, 'N/A')
-    age = @user.answers.fetch(:age, 'N/A')
-    text = "Name: #{name}, " \
-           "gender: #{gender}, " \
-           "age: #{age}"
-    say text
-    say 'Thanks for your time!'
-  end
+  # def stop_create_board
+  #   stop_thread
+  #   show_results
+  #   @user.answers = {}
+  # end
+  #
+  # def show_results
+  #   say "OK. Here's what we now about you so far:"
+  #   name = @user.answers.fetch(:name, 'N/A')
+  #   gender = @user.answers.fetch(:gender, 'N/A')
+  #   age = @user.answers.fetch(:age, 'N/A')
+  #   text = "Name: #{name}, " \
+  #          "gender: #{gender}, " \
+  #          "age: #{age}"
+  #   say text
+  #   say 'Thanks for your time!'
+  # end
 
   # NOTE: A way to enforce sanity checks (repeat for each sequential command)
   def fall_back
