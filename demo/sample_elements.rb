@@ -153,12 +153,6 @@ module SampleElements
           url: 'https://in.pinterest.com/search/pins/?q=contrast%20in%20architecture&rs=typed&term_meta[]=contrast%20in%20architecture%7Ctyped',
           title: 'Show similar'
         },
-        {
-          #edited for Pinning, commented out _payload 'HORIZONTAL_IMAGES'
-          type: :postback,
-          title: 'Pin',
-          payload: nil
-        }
       ]
     }
   ].freeze
