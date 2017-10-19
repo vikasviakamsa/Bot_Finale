@@ -29,7 +29,7 @@ module Questionnaire
   def handle_gender_and_ask_age
     fall_back && return
     @user.answers[:gender] = @message.text
-    say 'Alright, you can access the persistent menu to start pinning.', quick_replies: reply
+    say "Alright, you can access the persistent menu to start pinning.", quick_replies: reply
     next_command :handle_age_and_stop
   end
 
