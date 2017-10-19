@@ -91,7 +91,11 @@ Bot.on :message do |message|
     # Falback action if none of the commands matched the input,
     # NB: Should always come last. Takes a block.
     default do
-      say 'Here are some suggestions for you:', quick_replies: HINTS
+      say 'Sorry, I am still under construction'
+      sleep 1
+      say 'Please checkout the persistent menu to checkout some of my capabilities'
+      sleep 1
+      say 'I hope you will not be disappointed'
     end
   end
 end
