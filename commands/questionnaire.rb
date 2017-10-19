@@ -6,7 +6,7 @@ module Questionnaire
   module_function
 
   def start_questionnaire
-    if @message.quick_reply == 'START_QUESTIONNAIRE' || @message.text =~ /yes/i
+    if @message.quick_reply == 'CREATE_A_BOARD' || @message.text =~ /yes/i
       say "Great! What's your name?"
       say "(type 'Stop' at any point to exit)"
       next_command :handle_name_and_ask_gender
