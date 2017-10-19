@@ -8,6 +8,7 @@ module Questionnaire
   def create_board
     if @message.quick_reply == 'CREATE_BOARD' || @message.text =~ /yes/i
       say "Great! What do you want to name this board?"
+      sleep 1
       say "(type 'Stop' at any point to exit)"
       next_command :handle_name_and_ask_gender
     else
@@ -28,7 +29,7 @@ module Questionnaire
   def handle_gender_and_ask_age
     fall_back && return
     @user.answers[:gender] = @message.text
-    replies = UI::QuickReplies.build(%w[Yes YES], %w[No NO])
+    replies = UI::QuickReplies.build(%w[Okay OKAY])
     say 'Alright, you can access the persistent menu to start pinning.', quick_replies: reply
     next_command :handle_age_and_stop
   end
